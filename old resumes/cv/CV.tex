@@ -1,0 +1,390 @@
+%!TEX program = xelatex
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Two Column One Page Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (24/1/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro (The CV Inn)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Font size - 10pt, 11pt or 12pt
+
+\usepackage[hmargin=1.25cm, vmargin=1.5cm]{geometry} % Document margins
+
+\usepackage{marvosym} % Required for symbols in the colored box
+\usepackage{ifsym} % Required for symbols in the colored box
+
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+% Fonts and tweaks for XeLaTeX
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Linux Libertine} % Main document font
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Sans Guilt DB} % Font for your name at the top
+%\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+% Colors for links, text and headings
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{054067} % Blue-gray color for links
+\definecolor{shade}{HTML}{B3D8F1} % Peach color for the contact information box
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
+\definecolor{headings}{HTML}{1A6B9F} % Dark red color for headings
+% Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
+
+\hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example footer:
+%\rfoot{\color{headings} {\sffamily Last update: \today}. Typeset with Xe\LaTeX}
+
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+\usepackage{titlesec} % Allows creating custom \section's
+
+% Format of the section titles
+\titleformat{\section}{\color{headings}
+\scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
+
+\begin{document}
+
+\color{text1} % Sets the default text color for the whole document to the color defined as 'text1'
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\sffamily\Huge Jered McCullough}\\ % Your name
+
+{\color{headings}\fontspec[Variant = 2]{Adobe Garamond Pro} Software Engineer\\[15pt]\par} % Curriculum vitae text in the Freebooter Script font % {Vit\fontspec[Variant = 3]{Freebooter Script}\ae}
+
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.44\textwidth} % Start the right-hand side of the page
+\vspace{0pt} % Trick for alignment
+
+%----------------------------------------------------------------------------------------
+%	COLORED BOX
+%----------------------------------------------------------------------------------------
+
+\colorbox{shade}{\textcolor{text1}{
+\begin{tabular}{c|p{7cm}}
+\raisebox{-4pt}{\textifsymbol{18}} & 611 Mission St, San Francisco, CA 94105 \\ % Address
+\raisebox{-3pt}{\Mobilefone} & +1 (707) 8459114 \\ % Phone number
+\raisebox{-1pt}{\Letter} & \href{mailto:jeredmccullough@gmail.com}{jeredmccullough@gmail.com} \\ % Email address
+\Keyboard & \href{http://www.linkedin.com/in/jeredmccullough}{http://www.linkedin.com/in/jeredmccullough} \\ % Website
+\end{tabular}
+}
+}\\[10pt]
+
+
+%----------------------------------------------------------------------------------------
+%	Qualifications
+%----------------------------------------------------------------------------------------
+
+\section{Summary of Qualifications}
+%------------------------------------------------
+% WORK EXPERIENCE 1
+%------------------------------------------------
+
+{\raggedright\large \textbf{Ruby}\\
+\textit{Rails, Sinatra, Rspec }\\[5pt]}
+\normalsize{I have constructed several different webapps from the ground up using both \textbf{Sinatra and Rails} as the server backend in concert with \textbf{Postgres SQL}}\\
+
+{\raggedright\large \textbf{Javascript}\\
+\textit{Jquery, Backbone, Angular, Node.js, Express, Jasmine}\\[5pt]}
+\normalsize{I have used several different frameworks to build webapps,\textbf{ Node and Express} the backend and several others on the frontend including \textbf{Jquery, Backbone and Angular}}\\
+
+{\raggedright\large \textbf{Other}\\
+\textit{Matlab, SQL, Compass,  Foundation, Bootstrap, Haml/Jade, Postgres, Mongo, Heroku, C++}\\[5pt]}
+\normalsize{I have experience using several other technologies, while at University \textbf{I studied C++ and developed mathematical models using Matlab}, while for most of my applications I have used both Foundation and Bootstrap for front end design.}\\
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
+
+%------------------------------------------------
+% EDUCATION 1
+%------------------------------------------------
+
+ 2013&\textbf{\textsc{Humboldt State University}}\\
+\textbf{Major}& \textsc{Mathematics} \\
+\textbf{Minor}& \textsc{Spanish}\\\\
+ 2014&\textbf{\textsc{Makersquare}}\\
+\textbf{Course}& \textsc{Software Engineering} \\ \\
+
+
+
+&\textbf{Experience Abroad}\\
+
+%------------------------------------------------
+% EXPERIANCE ABROAD 1
+%------------------------------------------------
+
+ \textbf{Ecuador} & \textsc{Student} -- 05/11 - 9/11 \\
+
+%------------------------------------------------
+% EXPERIANCE ABROAD 2
+%------------------------------------------------
+
+ \textbf{ China} & \textsc{Volunteer} -- 9/11 - 8/12 \\
+
+%----------------------------------------------------------------------------------------
+
+\end{tabular}\\[5pt]
+
+%----------------------------------------------------------------------------------------
+%	COMMUNITY SERVICE
+%----------------------------------------------------------------------------------------
+
+\section{Community service}
+
+%------------------------------------------------
+% COMMUNITY SERVICE 1
+%------------------------------------------------
+\begin{tabular}{rl}
+{\raggedleft\par}
+\textbf{\textsc{  Football Coach}}&\textsc{Summer's  2008/2009}\\
+&\textit{Mad River Youth Football}\\\\
+%------------------------------------------------
+% COMMUNITY SERVICE 2
+%------------------------------------------------
+\textbf{\textsc{Construction Worker}}&\textsc{July 2002 -- July 2004}\\
+&\textit{RCHDC}\\
+\end{tabular}\\[10pt]
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\begin{tabular}{rl}
+%2010	 & \textbf{Faculty of Science Masters Scholarship}\\
+%& \textit{The University of California}\\ \\
+
+%------------------------------------------------
+
+%2008	 & \textbf{Top Achiever Award -- Commerce}\\
+%& \textit{Business Association of California}
+%\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+%	Technical Skills
+%----------------------------------------------------------------------------------------
+
+%\section{Technical Skills}
+
+%\begin{tabular}{rl}
+%Basic knowledge
+%& Microsoft Excel, \textsc{html}\\
+%& \textsc{css}, \LaTeX \\
+%\\
+%Intermediate Knowledge
+%& \textsc{C++}, \textsc{Matlab}, Mathematica,\\
+%& Windows XP/7, OSX,\\
+%& Microsoft Word, PowerPoint\\\\
+
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIANCE ABROAD
+%----------------------------------------------------------------------------------------
+
+%\section{Experience Abroad}
+
+%\begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
+
+%------------------------------------------------
+%EXPERIANCE ABROAD 1
+%------------------------------------------------
+
+%\end{tabular}\\[10pt]
+
+
+%\begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
+
+%------------------------------------------------
+%QUALIFICATION 1
+%------------------------------------------------
+
+%\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % End right-hand side of the page
+\hfill
+\begin{minipage}[t]{0.5\textwidth} % Start the left-hand side of the page
+\vspace{0pt} % Trick for alignment
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+%------------------------------------------------
+% WORK EXPERIENCE 1
+%------------------------------------------------
+
+{\raggedleft\textsc{July 2014 -- Present}\par}
+
+{\raggedright\large \textbf{Software Developer| Contract}\\
+\textit{Piper CRM}\\[5pt]}
+
+\normalsize{\textbf{Created notification system} and automatic contact imports utilizing Contexio API and
+\textbf{developed an email parsing program} to add contacts information automatically.\\
+\textbf{With a team of 3} developed and deployed a visually appealing user interface\\
+\textbf{Reviewed and refactored} others code using Github for version control, as well as using daily standups and weekly sprints for status updates.\\
+\textbf{Used test driven and agile development} practices for deployment and design.\\
+\textbf{We used Ruby on Rails with Postgres}, for the backend and database, as well as \textbf{Angular and Foundation} for the front end
+ }\\
+
+%------------------------------------------------
+% WORK EXPERIENCE 1
+%------------------------------------------------
+
+{\raggedleft\textsc{March 2013 -- Jan 2014}\par}
+
+{\raggedright\large \textbf{Pharmacy Technician}\\
+\textit{Lima's Professional Pharmacy}\\[5pt]}
+
+\normalsize{\textbf{Transcribed and filled} pharmaceutical prescriptions in a fast paced environment\\
+ \textbf{Worked in an office} environment billing insurance}\\
+
+%------------------------------------------------
+% WORK EXPERIENCE 2
+%------------------------------------------------
+
+{\raggedleft\textsc{Aug 2012 -- March 2013}\par}
+
+{\raggedright\large \textbf{Adv. Stats Calculus and Linear Algebra Tutor}\\
+\textit{Humboldt State University Math Lab}\\[5pt]}
+
+\normalsize{\textbf{}
+
+%------------------------------------------------
+% WORK EXPERIENCE 3
+%------------------------------------------------
+{\raggedleft\textsc{Summer 2006 -- Summer2011}\par}
+
+{\raggedright\large \textbf{Technician}\\
+\textit{Computer Design and Repair}\\[5pt]}
+\normalsize{\textbf{Designed}, constructed and installed custom personal computers.\\
+\textbf{Installed routers and modems} networking both PCs and Macs. \\
+\textbf{Upgraded and repaired} old computers with new hardware. \\
+\textbf{Installed} new operating systems: \textbf{Windows}, \textbf{Linux} and \textbf{Mac OSX}.\\
+\textbf{Provided personal one-on-one training} for basic computer functions, such as e-mail, and training in programs like \textbf{Microsoft Word/Excel/PowerPoint}. }\\
+
+%----------------------------------------------------------------------------------------
+%	Interests
+%----------------------------------------------------------------------------------------
+
+%\section{Professional Interests}
+
+%------------------------------------------------
+% Interests 1
+%------------------------------------------------
+
+
+
+
+
+
+%------------------------------------------------
+%  COMMUNITY SERVICE 3
+%------------------------------------------------
+
+%{\raggedleft\textsc{Current, from Jan 2009}\par}
+
+%{\raggedright\large Trader at Enoi s.p.a., Milan\\
+%\textit{Physical Natural Gas Trading}\\[5pt]}
+
+%\normalsize{Provided analysis of spreads, in particular time and location spreads, with emphasis on trading opportunities on the curve, also taking into account the availability of storage facilities. Became familiar with logistic implications of physical gas trading and developed knowledge of continental virtual hubs for gas exchange.}\\
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % End the left-hand side of the page
+
+%==========================NEW PAGE============================================
+
+%\begin{minipage}[t]{0.44\textwidth} % Start the right-hand side of the page
+%\vspace{0pt} % Trick for alignment
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+%\section{Community Service}
+
+%\begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
+
+%------------------------------------------------
+% EDUCATION 1
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+%\end{tabular}\\[10pt]
+
+
+
+%\end{minipage} % End right-hand side of the page
+%\hfill
+%\begin{minipage}[t]{0.5\textwidth} % Start the left-hand side of the page
+%\vspace{0pt} % Trick for alignment
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+%\section{Additional Work Experience}
+
+%------------------------------------------------
+% WORK EXPERIENCE 1
+%------------------------------------------------
+
+%{\raggedleft\textsc{March 2013 -- Current}\par}
+
+%{\raggedright\large \textbf{Temporary Localization Consultant}\\
+%\textit{Gamewave Interactive Ltd.}\\[5pt]}
+
+%\normalsize{-- Typed, billed and filled more than 70 prescriptions daily\\
+%-- Ordered new inventory, and kept costs updated\\
+%-- Developed tools to help audits and end year of inventory check\\
+%-- Consulted with other medical agencies to guarantee best treatment for a patient}\\
+
+
+
+%\end{minipage} % End the left-hand side of the page
+
+\end{document}
+

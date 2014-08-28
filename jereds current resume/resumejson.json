@@ -1,0 +1,136 @@
+{
+  basics: {
+    name: "Jered McCullough",
+    label: "Software Developer",
+  picture: "",
+  email: "jeredmccullough@gmail.com",
+  phone: "(707)845-9114",
+  website: "",
+  summary: "Jered has been a problem solver his entire life. From assembling computers as a kid, and earning an International Baccalaureate diploma in highschool, to receiving his degree in Mathematics from Humboldt State University, he has always looked for a challenge. As a first generation college student worked his way through college and learned spanish in Ecuador, before spending some time working in Beijing. Before joining the team at Piper he tutored advanced topics in mathematics, and focused on honing his programming skills.",
+  location: {
+  address: "611 Mission st",
+  postalCode: "CA 94105",
+  city: "San Francisco",
+  countryCode: "US",
+  region: "California"
+  },
+  profiles: [
+  {
+  network: "Twitter",
+  username: "jeredmccullough",
+  url: "https://twitter.com/JeredMcCullough"
+  },
+  {
+  network: "Linkedin",
+  username: "Jered McCullough",
+  url: "www.linkedin.com/in/jeredmccullough/"
+  }
+  ]
+  },
+  work: [
+  {
+  company: "MakerSquare CRM",
+  position: "Software Developer | Contract",
+  website: "https://github.com/makersquare/pied-piper/tree/dev",
+  startDate: "May 2014",
+  endDate: "Present",
+  summary: "HigherEd is a custom CRM application built on Rails with Angular on the frontend. It is a flexible program designed for keeping up to date information at your fingertips, and helping you simplify your daily interactions",
+  highlights: [
+  "Created notification system and automatic contact imports utilizing the Contexio API and developed an email parsing program to add contacts information automatically.",
+  "With a team of 3 developed and deployed a visually appealing user interface",
+  "Reviewed and refactored others code using Github for version control, as well as using daily standups and weekly sprints for status updates.",
+  "Used test driven and agile development practices for deployment and design."
+  ]
+  },
+  {
+  company: "Humboldt State University Math Lab",
+  position: "Adv Stats Calculus and Linear Algebra Tutor",
+  website: "humboldt.edu",
+  startDate: "8/2012",
+  endDate: "3/2013",
+  summary: "Created curriculum for upper-level undergraduate Math majors to grasp advanced Math concepts.",
+  highlights: [
+  "Derived statistical models to aid in student understanding",
+  "Created complex word problems to test student knowledge ",
+  "Instructed students on algorithmic problem solving techniques"
+  ]
+  },
+  {
+  company: "Computer Design and Repair",
+  position: "Hardware Technician",
+  website: "",
+  startDate: "2006",
+  endDate: "2011",
+  summary: "",
+  highlights: [
+  "Designed, constructed and installed personal computers",
+  "Installed networking equipment for PCs and Macs",
+  "Upgraded and repaired old computers with new hardware and software"
+  ]
+  }
+  ],
+  volunteer: [ ],
+  education: [
+  {
+  institution: "Humboldt State University",
+  area: "Mathematics",
+  studyType: "Bachelor",
+  startDate: "2007",
+  endDate: "2013",
+  gpa: "",
+  courses: [
+  "C++ Programming",
+  "Ordinary Differential Equations",
+  "Adv Linear Algebra",
+  "Algebraic Structures",
+  "Probability and Statistics",
+  "Mathematical Modeling",
+  "Real Analysis"
+  ]
+  },
+  {
+  institution: "MakerSquare",
+  area: "Web Developement",
+  studyType: "",
+  startDate: "2014",
+  endDate: "2014",
+  gpa: "",
+  courses: [ ]
+  }
+  ],
+  awards: [ ],
+  publications: [ ],
+  skills: [
+  {
+  name: "Front-end Development",
+  level: "Master",
+  keywords: [
+  "HTML",
+  "CSS",
+  "Javascript",
+  "Angular",
+  "Backbone",
+  "Scss"
+  ]
+  },
+  {
+  name: "Backend",
+  level: "Master",
+  keywords: [
+  "Ruby",
+  "Rails",
+  "Sinatra",
+  "SQL",
+  "Node"
+  ]
+  }
+  ],
+  languages: [
+  {
+  language: "English",
+  fluency: "Native speaker"
+  }
+  ],
+  interests: [ ],
+references: [ ]
+}

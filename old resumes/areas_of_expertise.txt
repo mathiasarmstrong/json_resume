@@ -1,0 +1,20 @@
+Areas of expertise:
+  Linear Algebra
+  Mathmetical Modeling
+  Object Oriented Programming
+  Algorithms
+  Test Driven Developement
+  Ruby
+    Rails
+    Sinatra
+
+  Javascript
+    Jquery
+    Backbonejs
+    Angular
+    Nodejs
+
+  Other
+    Bootstrap/Foundation
+    Sass/Scss
+    Jade/Haml

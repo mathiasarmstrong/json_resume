@@ -1,0 +1,182 @@
+{
+    "settings": {
+        "icons" : true
+    },
+    "firstname": "Jered",
+    "familyname": "McCullough",
+    "linkedin_id": "jeredmccullough",
+    "github_id": "mathiasarmstrong",
+    "bio_data": {
+        "email": "jeredmccullough@gmail.com",
+        "phone": "+1 (707) 845-9114",
+        "website": "",
+        "stars": ["Ruby","JavaScript","Node.js"],
+	"summary": {
+		"points":[
+        "I earned my Bachelors degree in Mathematics, with Spanish minor, from Humboldt State University. While I was at Humboldt State I worked full time, studied abroad in Ecuador and worked in Beijing for a year. I have tutored English, Mathematics and computer skills. Most recently I was a contract developer on the MakerSquare CRM, after participating in their intensive twelve-week web development course in San Francisco."
+		]
+	},
+        "github_projects": {
+            "details": [
+            ]
+        },
+        "skills": {
+            "details": [
+                {
+                    "type": "Programming Languages",
+                    "items": [
+                        "Ruby",
+                        "JavaScript",
+                        "C++",
+                        "MATLAB"
+                    ]
+                },
+                {
+                    "type": "Web Frameworks",
+                    "items": [
+                        "Sinatra",
+                        "AngularJS",
+                        "Rails",
+                        "Foundation",
+                        "Node.js",
+                        "Bootstrap"
+                    ]
+                },
+                {
+                    "type": "Databases",
+                    "items": [
+                        "MySQL",
+                        "PostgreSQL",
+                        "Mongodb"
+                    ]
+                }
+            ]
+        },
+        "education": {
+	    "show_gpa": false,
+            "schools": [
+                {
+                    "degree": "Bootcamp",
+                    "major": "Web Development",
+                    "institution": "MakerSquare",
+                    "graduation_year": 2014
+                },
+                {
+                    "degree": "Bachelors",
+                    "major": "Mathematics",
+                    "institution": "Humboldt State University",
+                    "graduation_year": 2013
+                }
+            ]
+        },
+        "acad_achievements": {
+            "items": [
+
+            ]
+        },
+        "experience": {
+            "items": [
+                {
+                    "title": "Contract Software Developer",
+                    "organisation": "MakerSquare CRM",
+		            "location": "San Francisco",
+                    "from": "May 2014",
+                    "to": "Present",
+                    "details": [
+                      "Created notification system and automatic contact imports utilizing the ContextIO API and developed an email parsing program to add contacts information automatically.",
+                      "With a team of 3 developed and deployed a visually appealing user interface.",
+                      "Reviewed and refactored others code using GitHub for version control, as well as using daily standups and weekly sprints for status updates.",
+                      "Used test driven and agile development practices for deployment and design."
+                      ],
+                    "technology_used": {
+                        "tools": [
+                            "Ruby on Rails",
+                            "AngularJS",
+                            "Foundation",
+                            "PostgreSQL"
+                        ]
+                    }
+                },
+
+                {
+                    "title": "Adv Stats Calculus and Linear Algebra Tutor",
+                    "organisation": "Humboldt State University Math Lab",
+                    "location": "Arcata, CA",
+                    "from": "8/2012",
+                    "to": "3/2013",
+                    "details": [
+                      "Derived statistical models to aid in student understanding",
+                      "Created complex word problems to test student knowledge ",
+                      "Instructed students on algorithmic problem solving techniques"
+                      ],
+                    "technology_used": {
+                        "tools": [
+                            "MATLAB",
+                            "R",
+                            "LaTeX"
+                        ]
+                    }
+                },
+                {
+                    "title": "Hardware Technician",
+                    "organisation": "Computer Design and Repair",
+                    "location": "Arcata, CA",
+                    "from": "01/2006",
+                    "to": "12/2011",
+                    "details": [
+                        "Designed, constructed and installed personal computers",
+                        "Installed networking equipment for PCs and Macs",
+                        "Upgraded and repaired old computers with new hardware and software"
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "OSX",
+                            "Windows XP/Vista/7"
+                        ]
+                    }
+                }
+            ]
+        },
+        "other_projects": {
+            "items": [
+            ]
+        },
+        "grad_courses": [
+         ],
+        "undergrad_courses": [
+            {
+                "name":"C++ Programming",
+                "url":"http://pine.humboldt.edu/registrar/catalog/documents/sections/Courses/math.pdf"
+            },
+            {
+                "name":"Ordinary Differential Equations",
+                "url":"http://pine.humboldt.edu/registrar/catalog/documents/sections/Courses/math.pdf"
+
+            },
+            {
+                "name":"Adv Linear Algebra",
+                "url":"http://pine.humboldt.edu/registrar/catalog/documents/sections/Courses/math.pdf"
+            },
+            {
+                "name":"Algebraic Structures",
+                "url":"http://pine.humboldt.edu/registrar/catalog/documents/sections/Courses/math.pdf"
+            },
+            {
+                "name":"Probability and Statistics",
+                "url":"http://pine.humboldt.edu/registrar/catalog/documents/sections/Courses/math.pdf"
+            },
+            {
+                "name":"Mathematical Modeling",
+                "url":"http://pine.humboldt.edu/registrar/catalog/documents/sections/Courses/math.pdf"
+            },
+            {
+                "name":"Real Analysis",
+                "url":"http://pine.humboldt.edu/registrar/catalog/documents/sections/Courses/math.pdf"
+            }
+	],
+        "research_experience": {
+            "items": ""
+        }
+
+    }
+}
